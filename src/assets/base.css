@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu :where(li:not(.disabled):not(.menu-title)) > :where(*:not(ul)) {
+    justify-content: center;
+}
+
+tr td:nth-child(4) {
+    width: 300px;
+}
